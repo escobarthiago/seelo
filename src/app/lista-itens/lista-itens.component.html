@@ -1,0 +1,8 @@
+<mat-list id="listaDeItens">
+    <mat-list-item *ngFor="let item of listaItens" [ngClass]="itemLista">
+      <div [ngClass]="'nomeItem'">{{item.nome}}</div>
+      <button mat-icon-button (click)="deletarItem(item.id)" color="warn">
+          <mat-icon>delete</mat-icon>
+      </button>
+    </mat-list-item>
+</mat-list>

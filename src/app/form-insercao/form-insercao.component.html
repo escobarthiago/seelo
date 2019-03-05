@@ -1,0 +1,7 @@
+<mat-card id="caixaInsercao">
+  <mat-form-field class="example-full-width">
+    <input matInput placeholder="Novo Item" value="" #novoItem>
+  </mat-form-field>
+  <button mat-mini-fab (click)="adicionarItem(novoItem.value); novoItem.value = '' "
+    color="primary"><mat-icon>add</mat-icon></button>
+</mat-card>

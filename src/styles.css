@@ -1,1 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    /*background-image: repeating-linear-gradient(180deg, #ff5858 0%, #f09819 48%, #d1e000 100%);*/
+    background-color: #f09819;
+}
+h1{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 800;
+}
+h2{
+    color: #fff;
+}
+#caixaInsercao{
+    width: 300px;
+    position: relative;
+    left: 50%;
+    margin-left: -165px;
+}
+#caixaInsercao button{
+    margin-left: 20px;
+}
+#listaDeItens{
+    width: 330px;
+    position: relative;
+    left: 50%;
+    margin-left: -165px;
+    margin-top: 50px;
+}
+.mat-list-item{
+    background-color: #FFF;
+    margin-bottom: 2px;
+}
+.mat-list-item button{
+    float: right;
+}
+.nomeItem{
+    width: 90%;
+    max-width: 90%;
+    text-align: center;
+    color: #555;
+}
