@@ -1,0 +1,10 @@
+<mat-card id="caixaInsercao">
+  <mat-form-field class="example-full-width">
+    <input matInput placeholder="Login" value="" #login>
+  </mat-form-field><br/>
+  <mat-form-field class="example-full-width">
+    <input matInput type="password" placeholder="Senha" value="" #senha>
+  </mat-form-field><br/>
+  <button mat-raised-button (click)="logarNoSistema(login.value, senha.value);"
+    color="primary">LogIn</button>
+</mat-card>
